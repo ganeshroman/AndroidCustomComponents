@@ -2,20 +2,28 @@ package com.example.customcomponents.utils;
 
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 import kotlin.collections.CollectionsKt;
 
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
-
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be common adapter.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public abstract class CommonAdapter extends RecyclerView.Adapter<ViewHolder> {
 
 

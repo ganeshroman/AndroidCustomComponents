@@ -1,4 +1,4 @@
-package com.example.customcomponents.base;
+package com.example.customcomponents.ui.base;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -11,6 +11,14 @@ import com.example.customcomponents.interfaces.PermisionsListener;
 import com.example.customcomponents.utils.Helper;
 import com.example.customcomponents.utils.PermissionUtils;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be base activity.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class BaseActivity extends AppCompatActivity {
 
     private PermisionsListener listener = null;

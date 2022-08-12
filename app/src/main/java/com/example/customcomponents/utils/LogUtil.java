@@ -4,6 +4,14 @@ import android.util.Log;
 
 import com.example.customcomponents.BuildConfig;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be logUtil
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 // Common logging Class to help Subscribe logs in multiple places. Disable all logs.
 public class LogUtil {
 

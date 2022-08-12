@@ -3,6 +3,14 @@ package com.example.customcomponents.models;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will help be standard response.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class StdResponse {
 
     public static final String RES_SUCCESS = "200";

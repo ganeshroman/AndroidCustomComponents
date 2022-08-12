@@ -1,9 +1,17 @@
-package com.example.customcomponents.base;
+package com.example.customcomponents.ui.base;
 
 import androidx.fragment.app.DialogFragment;
 
 import com.example.customcomponents.interfaces.DialogListener;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be base fragment.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class BaseDialogFragment extends DialogFragment {
 
     public static final String PARAM_NOT_ALERT_DIALOG = "notAlertDialog";

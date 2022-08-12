@@ -1,23 +1,23 @@
 package com.example.customcomponents.models.connectivity;
 
 
-
 import com.example.customcomponents.models.SessionData;
 
-import java.util.ArrayList;
-
-import okhttp3.MultipartBody;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
-import retrofit2.http.GET;
 import retrofit2.http.Headers;
-import retrofit2.http.Multipart;
 import retrofit2.http.POST;
-import retrofit2.http.Part;
-import retrofit2.http.Query;
 //import rx.Observable;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be repository api for this application.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public interface RepositoryApi {
 
 
@@ -57,9 +57,6 @@ public interface RepositoryApi {
     @Headers("Content-Type: application/x-www-form-urlencoded")
     @POST("someMethodName")
     public Call<SessionData> getLogin(@Field("userName") String username, @Field("password") String password, @Field("source") String source);
-
-
-
 
 
 }

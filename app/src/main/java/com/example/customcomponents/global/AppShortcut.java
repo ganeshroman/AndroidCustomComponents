@@ -14,6 +14,14 @@ import com.example.customcomponents.R;
 
 import java.util.Arrays;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * For shortcuts of app
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class AppShortcut {
 
     public static final String HOME_SHORT = "Home page";

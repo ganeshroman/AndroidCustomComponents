@@ -1,9 +1,7 @@
 package com.example.customcomponents.models.connectivity;
 
 
-import android.arch.core.BuildConfig;
 import android.content.Context;
-
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,8 +11,14 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+
 /**
- * Created by Ganesh Roman on 0/0/00.
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be retrofit client.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
  */
 
 final public class RetrofitClient {

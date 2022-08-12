@@ -14,10 +14,17 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
 import com.example.customcomponents.R;
-import com.example.customcomponents.base.BaseDialogFragment;
 import com.example.customcomponents.databinding.CustomDialogFragmentBinding;
+import com.example.customcomponents.ui.base.BaseDialogFragment;
 
-
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * Custom Dialog Fragment
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class CustomDialogFragment extends BaseDialogFragment implements View.OnClickListener {
 
     private CustomDialogFragmentBinding binding;

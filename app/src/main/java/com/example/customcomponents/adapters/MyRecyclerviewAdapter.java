@@ -12,10 +12,17 @@ import com.example.customcomponents.utils.GenericRecyclerViewAdapter;
 
 import java.util.ArrayList;
 
+/**
+ * @author Ganesh
+ * <p>
+ * This will be Custom Recyclerview
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class MyRecyclerviewAdapter extends GenericRecyclerViewAdapter {
 
     // you can use K  & V Generics to and also reduce next level of class to only one method i.e. binding of
-    // Rowbinding K & V for Object that is to be bind
+
 
     public MyRecyclerviewAdapter(ArrayList<Object> list, Context mcontext, RecyclerViewItemClickListener listener) {
         super(list, mcontext, listener);

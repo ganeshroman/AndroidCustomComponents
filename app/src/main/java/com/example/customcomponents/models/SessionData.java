@@ -6,10 +6,18 @@ import android.content.SharedPreferences;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class SessionData extends StdResponse{
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will help session data.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
+public class SessionData extends StdResponse {
 
     private String LOGIN_PREF = "Login_pref";
-    private String TOKEN = "tken_pref";
+    private String TOKEN = "token_pref";
     private String FIRST_NAME = "first_name_pref";
     private String LAST_NAME = "last_name_pref";
     private String USER_PIC_URL = "user_pci_pref";

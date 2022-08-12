@@ -21,10 +21,18 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.customcomponents.R;
-import com.example.customcomponents.base.BaseDialogFragment;
 import com.example.customcomponents.interfaces.DialogListener;
+import com.example.customcomponents.ui.base.BaseDialogFragment;
 import com.google.android.material.snackbar.Snackbar;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This contains helper method.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class Helper {
 
     //public static final Helper INSTANCE;
@@ -206,6 +214,11 @@ public class Helper {
     private static final int dpToPx(float dp, Resources resources) {
         float px = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, resources.getDisplayMetrics());
         return (int) px;
+    }
+
+    // Under implementation.
+    public static void getLoadGlide(Context context, View view, String url) {
+
     }
 
 

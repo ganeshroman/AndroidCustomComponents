@@ -13,6 +13,14 @@ import com.example.customcomponents.interfaces.RecyclerViewItemClickListener;
 import java.util.ArrayList;
 
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be Generic RecyclerView Adapter.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public abstract class GenericRecyclerViewAdapter extends RecyclerView.Adapter<GenericRecyclerViewAdapter.RecyclerViewHolder> {
 
     private ArrayList<Object> list;
@@ -61,9 +69,9 @@ public abstract class GenericRecyclerViewAdapter extends RecyclerView.Adapter<Ge
     public class RecyclerViewHolder<T extends ViewBinding> extends RecyclerView.ViewHolder {
         public T view;
 
-        public RecyclerViewHolder( T itemView) {
+        public RecyclerViewHolder(T itemView) {
             super(itemView.getRoot());
-            view=itemView;
+            view = itemView;
         }
     }
 

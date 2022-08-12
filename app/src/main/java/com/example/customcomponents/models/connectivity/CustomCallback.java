@@ -16,6 +16,14 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * Custom Callback for the Retrofit.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class CustomCallback<T> implements Callback<T> {
 
     private ProgressDialog mProgressDialog;
@@ -106,7 +114,7 @@ public class CustomCallback<T> implements Callback<T> {
                     }
                 }*/ else {
                     if (!blindMsg)
-                    Helper.showMessage((Activity) context, "" + res.getStatus());
+                        Helper.showMessage((Activity) context, "" + res.getStatus());
                 }
 
         } catch (Exception ex) {

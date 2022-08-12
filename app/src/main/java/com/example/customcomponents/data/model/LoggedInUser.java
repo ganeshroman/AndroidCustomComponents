@@ -1,7 +1,12 @@
 package com.example.customcomponents.data.model;
 
 /**
- * Data class that captures user information for logged in users retrieved from LoginRepository
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will help to understand easily.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
  */
 public class LoggedInUser {
 

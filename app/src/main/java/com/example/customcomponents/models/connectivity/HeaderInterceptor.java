@@ -13,6 +13,14 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * Custom Header Interceptor for the Retrofit.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class HeaderInterceptor implements Interceptor {
 
     Context context = null;

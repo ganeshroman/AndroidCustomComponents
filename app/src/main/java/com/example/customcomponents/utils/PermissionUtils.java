@@ -9,6 +9,14 @@ import androidx.core.content.ContextCompat;
 
 import com.example.customcomponents.interfaces.PermisionsListener;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be Permission Utils.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class PermissionUtils {
 
     public static final String ANDROID_PERMISSION_RECEIVE_SMS = "android.permission.RECEIVE_SMS";

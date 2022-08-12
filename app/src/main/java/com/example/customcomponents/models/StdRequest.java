@@ -4,25 +4,32 @@ import com.example.customcomponents.BuildConfig;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will help be standard request.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class StdRequest {
 
     @Expose
     @SerializedName("someInputFieldName1")
-    private String someInput2="10";
+    private String someInput2 = "10";
 
     @Expose
     @SerializedName("version")
-    private String version= BuildConfig.VERSION_NAME;
+    private String version = BuildConfig.VERSION_NAME;
 
     @Expose
     @SerializedName("someInputFieldName2")
-    private String someInput="0";
+    private String someInput = "0";
 
 
     /*@Expose
     @SerializedName("encryptedToken")*/
-    private String headerToken="";
-
+    private String headerToken = "";
 
 
     public String getVersion() {
@@ -32,7 +39,6 @@ public class StdRequest {
     public void setVersion(String version) {
         this.version = version;
     }
-
 
 
     public String getHeaderToken() {

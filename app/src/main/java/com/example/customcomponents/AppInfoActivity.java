@@ -2,15 +2,23 @@ package com.example.customcomponents;
 
 import android.os.Bundle;
 
-import com.example.customcomponents.base.BaseActivity;
 import com.example.customcomponents.models.SessionData;
 import com.example.customcomponents.models.connectivity.CustomCallback;
 import com.example.customcomponents.models.connectivity.RetrofitClient;
+import com.example.customcomponents.ui.base.BaseActivity;
 import com.example.customcomponents.utils.LogUtil;
 
 import retrofit2.Call;
 import retrofit2.Response;
 
+/**
+ * @param @nullable Temp    Explanation
+ * @author Ganesh
+ * <p>
+ * This will be App Info Activity.
+ * </p>
+ * Created by Ganesh Roman on 12,August,2022
+ */
 public class AppInfoActivity extends BaseActivity {
 
     public static String TEMP_URL = "http://www.google.com";
